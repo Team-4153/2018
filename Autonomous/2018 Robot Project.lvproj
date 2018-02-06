@@ -132,10 +132,10 @@ AddOutputFilter chunkFilter
 			<Item Name="pneumatics.vi" Type="VI" URL="../pneumatics.vi"/>
 			<Item Name="turnanddrive.vi" Type="VI" URL="../turnanddrive.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="inches to ticks.vi" Type="VI" URL="../inches to ticks.vi"/>
 			<Item Name="Lifter.vi" Type="VI" URL="../Lifter.vi"/>
 			<Item Name="drive.vi" Type="VI" URL="../drive.vi"/>
 		</Item>
-		<Item Name="inches to ticks.vi" Type="VI" URL="../inches to ticks.vi"/>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">

@@ -20,33 +20,37 @@ void setup() {
   Wire.onReceive(receiveEvent);
 }
 void loop() {
-   if (alliance == false){
-    for(int i = 0; i < fork_height; i++)
-      leds[i] = blue;
-    for (int i = fork_height; i < num_leds; i++)
-      leds[i] = white;
-   }
-   else if (alliance == true){
-    for(int i = 0; i < fork_height; i++)
+   if (alliance == true) {
+    for(int i = 0; i < fork_height; i++) {
       leds[i] = red;
-    for (int i = fork_height; i < num_leds; i++)
-      leds[i] = white;
+    }
+    for(int i = num_leds - 5; i < num_leds; i++)
+      leds[i] = red;
    }
-   if (fork == true){
-    for(int i = 0; i < fork_height; i++)
+  else  if(alliance == false) {
+    for(int i = 0; i < fork_height; i++) {
+      leds[i] = blue;
+    }
+    for(int i = num_leds - 5; i < num_leds; i++) {
+      leds[i] = blue;
+    }
+   }
+   if(fork == true){
+    for(int i = 0; i < fork_height; i++) {
       leds[i] = green;
-    for (int i = fork_height; i < num_leds; i++)
+    }
+   }
+   for(int i = fork_height; i < num_leds - 5; i++) {
       leds[i] = white;
-      //fork true overides alliance color
    }
   FastLED.show();
-  delay(10);
+  delay(100);
 }
 
 void receiveEvent(int howMany) {
   int x = Wire.read();
   if (x <= 100) {
-    fork_height=(x/100.0)*num_leds;
+    fork_height=(x/100.0)*(num_leds - 5);
   }
   else if (x == 202 || x == 200) {
     enabled = false;

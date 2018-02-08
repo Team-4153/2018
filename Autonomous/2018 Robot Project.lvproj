@@ -120,6 +120,16 @@ AddOutputFilter chunkFilter
 				<Item Name="PixyCamI2C.vi" Type="VI" URL="../PixyCamI2C.vi"/>
 				<Item Name="PixyCamSPI.vi" Type="VI" URL="../PixyCamSPI.vi"/>
 			</Item>
+			<Item Name="Begins" Type="Folder">
+				<Item Name="pneumatics.vi" Type="VI" URL="../pneumatics.vi"/>
+				<Item Name="AutoSensorsBegins.vi" Type="VI" URL="../Begins/AutoSensorsBegins.vi"/>
+				<Item Name="ClimbBegin.vi" Type="VI" URL="../Begins/ClimbBegin.vi"/>
+				<Item Name="DriveBegin.vi" Type="VI" URL="../Begins/DriveBegin.vi"/>
+				<Item Name="GrabberBegin.vi" Type="VI" URL="../Begins/GrabberBegin.vi"/>
+				<Item Name="LifterBegin.vi" Type="VI" URL="../Begins/LifterBegin.vi"/>
+				<Item Name="CamerasBegin.vi" Type="VI" URL="../Begins/CamerasBegin.vi"/>
+				<Item Name="ControlsBegin.vi" Type="VI" URL="../Begins/ControlsBegin.vi"/>
+			</Item>
 			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
 			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
@@ -129,7 +139,6 @@ AddOutputFilter chunkFilter
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
 			<Item Name="turn.vi" Type="VI" URL="../turn.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="pneumatics.vi" Type="VI" URL="../pneumatics.vi"/>
 			<Item Name="turnanddrive.vi" Type="VI" URL="../turnanddrive.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="inches to ticks.vi" Type="VI" URL="../inches to ticks.vi"/>

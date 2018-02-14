@@ -131,7 +131,7 @@ AddOutputFilter chunkFilter
 				<Item Name="ControlsBegin.vi" Type="VI" URL="../Begins/ControlsBegin.vi"/>
 			</Item>
 			<Item Name="Teleop" Type="Folder">
-				<Item Name="Hook Moter.vi" Type="VI" URL="../Begins/Hook Moter.vi"/>
+				<Item Name="Hook Motor.vi" Type="VI" URL="../Begins/Hook Motor.vi"/>
 				<Item Name="I2c.vi" Type="VI" URL="../Begins/I2c.vi"/>
 				<Item Name="Joystick 2.vi" Type="VI" URL="../Begins/Joystick 2.vi"/>
 				<Item Name="Pixi cam.vi" Type="VI" URL="../Begins/Pixi cam.vi"/>
@@ -152,6 +152,7 @@ AddOutputFilter chunkFilter
 			<Item Name="inches to ticks.vi" Type="VI" URL="../inches to ticks.vi"/>
 			<Item Name="Lifter.vi" Type="VI" URL="../Lifter.vi"/>
 			<Item Name="drive.vi" Type="VI" URL="../drive.vi"/>
+			<Item Name="Grabber.vi" Type="VI" URL="../../CompetitionDashboard/Grabber.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
